@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=Uz84Fk6HhWU
+
+fail at
+gcloud run deploy "$SERVICE_NAME" \
+
+denied: Permission "artifactregistry.repositories.uploadArtifacts" denied on resource "projects/aviapi/locations/us-central1/repositories/gemini-mtgcalc-repo" (or it may not exist)
+ERROR: (gcloud.run.deploy) PERMISSION_DENIED: Permission 'run.services.get' denied on resource 'namespaces/aviapi/services/gemini-mtgcalc-streamlit-app' (or resource may not exist). This command is authenticated as bradyoo2012.3@gmail.com which is the active account specified by the [core/account] property.
